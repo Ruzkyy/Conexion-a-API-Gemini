@@ -87,16 +87,10 @@ El archivo `.gitignore` está configurado para evitar que `.env` sea incluido en
 Una vez configurado el entorno virtual y las dependencias, ejecutar:
 
 ```bash
-python mainGemini.py
+python app_text.py
 ```
 
 Este programa realiza una solicitud a Gemini y muestra la respuesta generada por el modelo.
-
-También se puede ejecutar el ejemplo de procesamiento de texto:
-
-```bash
-python app_text.py
-```
 
 Para comprobar que el entorno virtual y la conexión a Internet funcionan correctamente:
 
@@ -136,12 +130,12 @@ El archivo `.env.example` puede utilizarse como referencia para crear el archivo
 Si Python y Git ya están instalados, el proceso completo es:
 
 ```bash
-git clone https://github.com/Ruzkyy/Conexion-a-API-Gemini.git
+git clone (URL)
 cd Conexion-a-API-Gemini
 python -m venv venv
 source venv/Scripts/activate
 python -m pip install -r requirements.txt
-python mainGemini.py
+py ./app_text.py
 ```
 ## Evidencia de ejecucion:
 <img width="1164" height="280" alt="{EBCA3D03-26AD-4EC0-A318-997E6B364687}" src="https://github.com/user-attachments/assets/0648acb7-7e51-4e81-8bda-a1e6cf8d89a7" />
