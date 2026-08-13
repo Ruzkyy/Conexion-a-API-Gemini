@@ -143,3 +143,6 @@ source venv/Scripts/activate
 python -m pip install -r requirements.txt
 python mainGemini.py
 ```
+## Evidencia de ejecucion:
+<img width="1164" height="280" alt="{EBCA3D03-26AD-4EC0-A318-997E6B364687}" src="https://github.com/user-attachments/assets/0648acb7-7e51-4e81-8bda-a1e6cf8d89a7" />
+
